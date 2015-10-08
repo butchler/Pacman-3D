@@ -1,0 +1,8 @@
+html, body {
+    font-family: sans-serif;
+    /* Make sure canvas fills screen */
+    margin: 0;
+    padding: 0;
+    /* Prevent scrollbars */
+    overflow: hidden;
+}
