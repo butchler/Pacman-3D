@@ -1,8 +1,54 @@
 html, body {
     font-family: sans-serif;
+
     /* Make sure canvas fills screen */
     margin: 0;
     padding: 0;
+
     /* Prevent scrollbars */
     overflow: hidden;
+}
+
+#lives {
+    position: absolute;
+    top: 2em;
+    right: 2em;
+}
+.life {
+    margin: 1em;
+}
+
+button {
+    border: none;
+    color: white;
+    background-color: blue;
+    opacity: 0.5;
+
+    padding: 0.5em 1em;
+
+    cursor: pointer;
+}
+
+#help-button {
+    position: absolute;
+    top: 1em;
+    left: 1em;
+}
+
+.dialog {
+    color: rgb(255, 255, 200);
+    background-color: rgba(0, 0, 30, 0.8);
+    text-align: center;
+
+    position: absolute;
+    left: 30%;
+    top: 25%;
+    width: 40%;
+    z-index: 1;
+    padding: 2em;
+
+    cursor: auto;
+
+    /* Hidden by default */
+    display: none;
 }
